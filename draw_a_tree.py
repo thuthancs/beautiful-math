@@ -52,7 +52,7 @@ def visualize(n=3, theta=0, x=0, y=0, l=1):
     
     # Set equal aspect ratio and adjust limits
     ax.set_aspect('equal')
-    ax.axis('off')  # Remove axes for cleaner look
+    ax.axis('off')
     plt.tight_layout()
     plt.show()
 
